@@ -1,4 +1,4 @@
-# 🏠 Casa Domótica - Patrón Composite
+# Casa Domótica - Patrón Composite
 
 Sistema de control domótico inteligente que demuestra la implementación del **patrón de diseño Composite** usando Java Swing.
 
@@ -6,7 +6,7 @@ Sistema de control domótico inteligente que demuestra la implementación del **
 ![Swing](https://img.shields.io/badge/Swing-GUI-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## 📋 Descripción
+## Descripción
 
 Este proyecto implementa un sistema de control para una casa domótica donde los dispositivos pueden manejarse individualmente o en grupos jerárquicos. Demuestra visualmente la diferencia entre:
 
@@ -17,16 +17,16 @@ Este proyecto implementa un sistema de control para una casa domótica donde los
 
 El patrón Composite permite componer objetos en estructuras de árbol para representar jerarquías. Permite que los clientes traten objetos individuales y composiciones de manera uniforme.
 
-## ✨ Características
+##  Características
 
-- 🎨 **Interfaz gráfica moderna** con tema oscuro
-- 💡 **Control de dispositivos**: Luces y ventiladores
-- 🏢 **Jerarquía de habitaciones**: Organización en estructura de árbol
-- 📊 **Consola en tiempo real**: Visualización de las operaciones
-- 🔄 **Comparación visual**: Panel dividido mostrando ambos enfoques
-- ⚡ **Operaciones en cascada**: Un clic controla múltiples dispositivos
+-  **Interfaz gráfica moderna** con tema oscuro
+-  **Control de dispositivos**: Luces y ventiladores
+-  **Jerarquía de habitaciones**: Organización en estructura de árbol
+-  **Consola en tiempo real**: Visualización de las operaciones
+-  **Comparación visual**: Panel dividido mostrando ambos enfoques
+-  **Operaciones en cascada**: Un clic controla múltiples dispositivos
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 ### Estructura del Patrón Composite
 
@@ -48,7 +48,7 @@ Casa Completa [Composite Raíz]
     └── Ventilador (Sala) [Leaf]
 ```
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 ### Requisitos Previos
 
@@ -76,7 +76,7 @@ java CasaDomotica
 2. Navega a `Composite/CasaDomotica.java`
 3. Click derecho → Run 'CasaDomotica.main()'
 
-## 🎮 Cómo Usar la Aplicación
+## Cómo Usar la Aplicación
 
 ### Panel Izquierdo - Sin Patrón
 - Control **individual** de cada dispositivo
@@ -93,7 +93,7 @@ java CasaDomotica
 - Visualiza el recorrido del árbol de dispositivos
 - Útil para entender el flujo del patrón
 
-## 🔍 Código Clave
+## Código Clave
 
 ### Interfaz Componente
 ```java
@@ -117,15 +117,15 @@ class HabitacionD implements IDispositivo {
 }
 ```
 
-## 📸 Capturas de Pantalla
+## Capturas de Pantalla
 
 La aplicación muestra:
-- ✅ Estados visuales (encendido/apagado)
-- ✅ Colores dinámicos según el estado
-- ✅ Bordes que indican dispositivos apagados
-- ✅ Log detallado de operaciones
+-  Estados visuales (encendido/apagado)
+-  Colores dinámicos según el estado
+-  Bordes que indican dispositivos apagados
+-  Log detallado de operaciones
 
-## 🎯 Conceptos Demostrados
+## Conceptos Demostrados
 
 | Concepto | Implementación |
 |----------|----------------|
@@ -135,20 +135,20 @@ La aplicación muestra:
 | **Transparencia** | Misma interfaz para hojas y composites |
 | **Recursión** | Operaciones se propagan por el árbol |
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Java**: Lenguaje principal
 - **Swing**: Framework para interfaz gráfica
 - **AWT**: Manejo de eventos y gráficos
 - **Patrón Composite**: Diseño estructural GoF
 
-## 📚 Recursos de Aprendizaje
+## Recursos de Aprendizaje
 
 - [Gang of Four - Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
 - [Refactoring.Guru - Composite Pattern](https://refactoring.guru/design-patterns/composite)
 - [Java Swing Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/)
 
-## 🤝 Contribuciones
+## Contribuciones
 
 Este es un proyecto educativo. Si encuentras mejoras o bugs:
 
@@ -158,14 +158,14 @@ Este es un proyecto educativo. Si encuentras mejoras o bugs:
 4. Push a la rama (`git push origin feature/mejora`)
 5. Abre un Pull Request
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 👨‍💻 Autor
+## Autor
 
 Proyecto desarrollado como ejercicio académico para demostrar el patrón de diseño Composite.
 
 ---
 
-⭐ **Si te sirvió este proyecto, dale una estrella en GitHub!**
+ **Si te sirvió este proyecto, dale una estrella en GitHub!**
